@@ -25,6 +25,14 @@
    border-radius: 4px;
  }
 
+
+ .banner{
+  display: flex;
+  justify-content: center;
+  margin: o;
+
+ }
+
  .banner-content{
     text-align: center;
     justify-content: center;
@@ -34,19 +42,81 @@
 
 
  /*header*/
- background-image: url("../assets/Hero-bg.png");
- background-size: 
- background-position: center
- justify-content: center;
- align-items::content
- position: relative;
+ .banner {
+  background-image: url("../assets/Hero-bg.png");
+  background-size: cover;
+  background-position: center ;
+  background-attachment: fixed;
+  height: 252px;
+  max-width: 1440px;
+  top: 131px;
+  
+
+   
+  
+}
+
+
 
 
  .container{
    text-align: center;
     justify-content: center;
-    align-items: center
+    align-items: center;
  }
+
+
+ .section-title{
+   font-size: 35px;
+   font-weight: bold;
+   color: #0D1321;
+   text-align: center;
+
+ }
+.section-description{
+  font-size: 16px;
+  color: #0D1321;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
+}
+/*inspiration*/
+.inspiration{
+  border-radius: 10px;
+
+}
+ 
+
+/*main sttyle*/
+.main{
+  max-width: 1440px;
+  justify-content: center;
+  background-position: center;
+}
+
+.main-section{
+  margin-top: 130px;
+
+}
+.text-center{
+  text-align: center;
+
+}
+
+/*skills section style*/
+.skills-container{
+  display: flex;
+  gap: 24px;
+}
+
+.skill{
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px #EBEBEB ;
+}
+
 
 
 
